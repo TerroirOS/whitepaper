@@ -1,0 +1,349 @@
+{
+  "title": "Terroir: Verifiable Provenance and Climate Resilience Infrastructure for Agricultural Supply Chains",
+  "subtitle": "A technical whitepaper for funders, enterprises, and public institutions building shared digital trust for origin-sensitive agricultural products.",
+  "downloadPath": "/downloads/terroir-trace-shield-whitepaper.pdf",
+  "heroLabel": "Whitepaper",
+  "executiveSummaryTitle": "Executive Summary",
+  "abstractTitle": "Abstract",
+  "abstractBlocks": [
+    {
+      "kind": "paragraph",
+      "text": "Terroir is open infrastructure for agricultural supply chains where product value depends on origin. Trace, its first module, creates verifiable batch passports and public verification records backed by multi-party attestations. Shield, the planned second module, extends that same evidence layer into climate-triggered response workflows for smallholder and family-run producers.",
+      "citationIds": ["dpg-standard-2025", "undp-default-open-2024"]
+    },
+    {
+      "kind": "paragraph",
+      "text": "The architecture works for any origin-sensitive agricultural product (wine, coffee, olive oil, honey) wherever counterfeiting, fragmented records, and climate exposure converge. Georgia's wine sector is the first pilot because it has everything a test case needs: protected appellations, documented counterfeiting, cross-border exports, and an institutional quality-control system that already produces certifiable evidence.",
+      "citationIds": ["nwa-exports-2025", "sakpatenti-kindzmarauli-2018", "joss-traceability-2025"]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Provenance and resilience belong together. Trace ships first because cross-border trust failure is the most pressing problem. Shield follows once the evidence layer works, because parametric climate response without trusted enrollment and governance just creates disputes.",
+      "citationIds": ["worldbank-index-promises-2022", "joss-traceability-2025"]
+    }
+  ],
+  "executiveSummaryBlocks": [
+    {
+      "kind": "paragraph",
+      "text": "Terroir is open trust and resilience infrastructure for agricultural livelihoods that depend on verified origin. The system is designed to be reusable across product categories and geographies, starting with a focused pilot in Georgian wine.",
+      "citationIds": ["dpg-standard-2025", "undp-default-open-2024"]
+    },
+    {
+      "kind": "list",
+      "items": [
+        "Origin-sensitive agricultural products lose value when evidence fragments across borders. Trace solves this with verifiable batch passports and multi-party attestations.",
+        "The architecture is hybrid by design: operational data stays off-chain, cryptographic commitments go on-chain. No blockchain maximalism, no proprietary lock-in.",
+        "Trust tiers distinguish self-reported claims from lab-attested and authority-attested ones. The system is honest about what it knows and who said it.",
+        "Shield extends the same evidence model into climate response. It ships only after Trace is stable, because parametric payouts without trusted enrollment create disputes.",
+        "Open-source governance and DPG alignment are practical adoption strategies, not branding. Cooperatives, agencies, and donor-backed programs need inspectable infrastructure."
+      ],
+      "citationIds": [
+        "nwa-exports-2025",
+        "tifs-blockchain-2021",
+        "joss-traceability-2025",
+        "worldbank-index-promises-2022",
+        "dpg-standard-2025"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figureId": "system-overview"
+    },
+    {
+      "kind": "callout",
+      "title": "Module status",
+      "text": "Trace is current and buildable. Shield is planned and roadmap-grade. They share data primitives, issuer trust, and governance logic, but they are at different maturity levels. This paper treats them accordingly.",
+      "citationIds": ["worldbank-viable-solution-2019"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "problem-definition",
+      "title": "The Trust Problem in Origin-Sensitive Agriculture",
+      "shortTitle": "Problem",
+      "citationIds": ["oecd-fakes-2022", "oecd-euipo-fakes-2025", "sakpatenti-kindzmarauli-2018", "mepa-hail-aid-2023"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Agricultural products with origin-based value, such as appellations, geographical indications, and single-origin designations, fail in international markets when evidence fails. The product itself might be excellent. But when the records linking it to its place, producer, and handling history fragment across paper certificates, siloed databases, and manual customs checks, counterfeits and relabeled goods slip through.",
+          "citationIds": ["oecd-fakes-2022", "oecd-euipo-fakes-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Climate makes it worse. Hail, frost, drought, and emergency support programs all need to know who was affected, where, under what rules, and how decisions were made. A resilience workflow without auditable evidence is just manual discretion moving faster. A provenance workflow without climate awareness leaves producers exposed to shocks that undermine quality and continuity.",
+          "citationIds": ["mepa-hail-aid-2023", "worldbank-index-promises-2022", "nature-food-climate-2024"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "trust-failure-map"
+        },
+        {
+          "kind": "table",
+          "tableId": "problem-feature-mapping"
+        }
+      ]
+    },
+    {
+      "id": "terroir-overview",
+      "title": "Terroir: What It Is and Why It Exists",
+      "shortTitle": "Overview",
+      "citationIds": ["dpg-standard-2025", "undp-default-open-2024", "nwa-exports-2025", "joss-traceability-2025", "unicef-innovation-fund-2026"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Terroir is an open infrastructure layer for agricultural products whose economic value depends on trusted identity. Wine, coffee, olive oil, honey, spices: any product where origin commands a premium and counterfeiting erodes it. Not a marketing tool. A reusable architecture for provenance, verification, and auditable resilience.",
+          "citationIds": ["dpg-standard-2025", "undp-default-open-2024"]
+        },
+        {
+          "kind": "callout",
+          "title": "Why start with Georgian wine",
+          "text": "Georgia has one of the oldest wine traditions on earth, UNESCO-recognized qvevri practice, hundreds of indigenous grape varieties, a legal GI regime, and documented cross-border counterfeiting cases. More importantly, the state already runs lab workflows, vintage accounting, and quality-control systems that produce real certifiable evidence. Trace plugs into institutions that already issue meaningful data rather than inventing parallel bureaucracy.",
+          "citationIds": ["nwa-exports-2025", "nwa-varietals-2023", "unesco-qvevri-2013", "wipo-gi-law-1999", "nwa-quality-2020", "sakpatenti-kindzmarauli-2018"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Two layers. Trace is the provenance engine (batch passports, issuer attestations, public verification), ready for pilots now. Shield is the planned resilience extension that uses weather events, eligibility records, and public reporting to make climate-triggered support faster and more auditable.",
+          "citationIds": ["worldbank-index-promises-2022", "rda-agroinsurance-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The economic logic: when a producer exports into a market where origin and quality signaling drive pricing, any ambiguity around authenticity becomes a tax on the honest actor. Some of that shows up as direct counterfeiting. The rest shows up as slower customs clearance, harder distributor onboarding, and more manual disputes. Trace reduces that friction, but only if it respects time. Batch registration at bottling or shipment events, reusable evidence templates, open APIs that don't force downstream partners to change their systems.",
+          "citationIds": ["nwa-exports-2025", "oecd-fakes-2022", "joss-traceability-2025"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "georgia-export-exposure"
+        }
+      ]
+    },
+    {
+      "id": "trace-module",
+      "title": "Trace: Batch Passports, Attestations, and Verification",
+      "shortTitle": "Trace",
+      "citationIds": ["nwa-quality-2020", "joss-traceability-2025", "sakpatenti-kindzmarauli-2018"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trace creates a digital passport for each batch or export unit. Not a story page, but a structured record linking origin, product type, process details, issuer attestations, and evidence references to a public verification surface accessible through a scan.",
+          "citationIds": ["joss-traceability-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Batch-first by design. For most producers, the natural operational unit is the harvest lot, processing batch, or export bundle, not the individual item. Batch-level registration keeps onboarding fast. Higher-risk product lines can layer on item-level tagging later without changing the core model.",
+          "citationIds": ["joss-traceability-2025"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "trace-data-model"
+        },
+        {
+          "kind": "table",
+          "tableId": "source-of-truth-matrix"
+        },
+        {
+          "kind": "paragraph",
+          "text": "Credibility comes from stratification. A producer self-reports harvest details. A lab signs test results. An authority attests GI conformity. Collapsing all of that into one \"verified\" badge would be dishonest. Trust tiers make the epistemic weight of each claim visible.",
+          "citationIds": ["nwa-quality-2020", "wipo-gi-law-1999"]
+        },
+        {
+          "kind": "equation",
+          "equationId": "trust-tier-score"
+        }
+      ]
+    },
+    {
+      "id": "trace-architecture",
+      "title": "Architecture: Hybrid Storage and Public Commitments",
+      "shortTitle": "Architecture",
+      "citationIds": ["tifs-blockchain-2021", "dpg-standard-2025"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trace uses a hybrid architecture. Operational data (structured records, evidence files, access control) lives in the application layer. Cryptographic commitments, issuer actions, and verification checkpoints live in a minimal public registry that no single operator can silently rewrite.",
+          "citationIds": ["tifs-blockchain-2021"]
+        },
+        {
+          "kind": "equation",
+          "equationId": "trace-commitment"
+        },
+        {
+          "kind": "equation",
+          "equationId": "attestation-commitment"
+        },
+        {
+          "kind": "equation",
+          "equationId": "verification-predicate"
+        },
+        {
+          "kind": "figure",
+          "figureId": "attestation-sequence"
+        },
+        {
+          "kind": "paragraph",
+          "text": "This avoids two common design failures. Making blockchain the product raises complexity without improving producer outcomes. Keeping everything in a proprietary database kills verification and interoperability. On-chain state handles public commitments. Off-chain data handles operations. Each does what it's good at.",
+          "citationIds": ["tifs-blockchain-2021", "dpg-standard-2025"]
+        }
+      ]
+    },
+    {
+      "id": "threat-model",
+      "title": "Threats and Tradeoffs",
+      "shortTitle": "Threats",
+      "citationIds": ["sakpatenti-kindzmarauli-2018", "oecd-euipo-fakes-2025", "joss-traceability-2025"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Trace is not a truth machine. Garbage-in is a real risk when only one actor writes decisive claims. The model mitigates this with multiple attestors, source-specific trust tiers, and public verification, not by pretending the system sees everything, but by making visible who said what and when.",
+          "citationIds": ["joss-traceability-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "QR codes work for low-friction transparency. They don't solve high-adversary anti-counterfeit problems alone. For higher-risk exports, the pattern is QR-first onboarding, secure NFC for selected SKUs, and anomaly analytics that flag impossible behavior, such as the same tag scanned in two countries the same week, or hundreds of scans from a warehouse that shipped ten cases.",
+          "citationIds": ["sakpatenti-kindzmarauli-2018", "oecd-euipo-fakes-2025"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "qr-nfc-anomaly"
+        },
+        {
+          "kind": "equation",
+          "equationId": "scan-anomaly-score"
+        }
+      ]
+    },
+    {
+      "id": "shield-module",
+      "title": "Shield: Parametric Resilience and Audited Response",
+      "shortTitle": "Shield",
+      "citationIds": ["mepa-hail-aid-2023", "rda-agroinsurance-2025", "worldbank-index-promises-2022", "worldbank-viable-solution-2019", "nature-food-climate-2024"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Shield is planned, not launched. It turns documented climate events into faster, more auditable support decisions by reusing the enrollment, evidence, and verification logic that Trace already establishes.",
+          "citationIds": ["mepa-hail-aid-2023", "worldbank-index-promises-2022"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "shield-payout-flow"
+        },
+        {
+          "kind": "equation",
+          "equationId": "shield-trigger"
+        },
+        {
+          "kind": "equation",
+          "equationId": "parametric-payout"
+        },
+        {
+          "kind": "figure",
+          "figureId": "parametric-payout-curve"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The hard problem is basis risk, the gap between what a parametric index says happened and what a producer actually lost. A fast index-based response improves speed and auditability, but it can diverge from real local damage. Shield should start as rapid relief with clear thresholds, published rules, and fallback review paths. Not as an insurance market replacement.",
+          "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019", "nature-food-climate-2024"]
+        },
+        {
+          "kind": "equation",
+          "equationId": "basis-risk"
+        },
+        {
+          "kind": "figure",
+          "figureId": "basis-risk"
+        }
+      ]
+    },
+    {
+      "id": "governance-safeguards",
+      "title": "Governance and Safeguards",
+      "shortTitle": "Governance",
+      "citationIds": ["wipo-gi-law-1999", "wipo-geneva-act-2025", "unicefusa-gift-policy-2026", "dpg-standard-2025", "undp-default-open-2024"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Provenance infrastructure can't be governed as a black box. If Terroir supports producers, agencies, certifiers, and donor-backed programs, its schemas, verification logic, and upgrade path need to stay inspectable and contestable. Open-source licensing and DPG-style governance are structural requirements, not a branding exercise.",
+          "citationIds": ["dpg-standard-2025", "undp-default-open-2024"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "GI protection is a legal and institutional matter. Terroir accelerates evidence handling and verification, but it doesn't imply that a technical record replaces protected-designation law or formal enforcement. Funding-sensitive audiences also need strict separation between rural-livelihood infrastructure and anything that looks like product promotion.",
+          "citationIds": ["wipo-gi-law-1999", "wipo-geneva-act-2025", "unicefusa-gift-policy-2026"]
+        },
+        {
+          "kind": "list",
+          "title": "Built-in safeguards",
+          "items": [
+            "No personal farmer data or beneficiary-identifying financial details published on-chain.",
+            "No youth-targeted marketing, gamified features, or product-promotion mechanics in the core system.",
+            "Child-labor and safe-work commitments handled as governance attestations, not promotional badges.",
+            "Shield publishes totals, event logic, and rule execution without exposing sensitive participant records."
+          ],
+          "citationIds": ["unicefusa-gift-policy-2026", "dpg-standard-2025"]
+        }
+      ]
+    },
+    {
+      "id": "rollout-plan",
+      "title": "Rollout",
+      "shortTitle": "Rollout",
+      "citationIds": ["nwa-exports-2025", "rda-agroinsurance-2025", "dpg-standard-2025"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with one exporter-facing Trace pilot on a small set of high-value SKUs. Prove that batch registration, issuer attestations, and public verification work inside real production and export workflows without adding unacceptable friction.",
+          "citationIds": ["nwa-exports-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the evidence model stabilizes, bring in institutional integrations (labs, certifiers, associations, agencies) that contribute stronger attestations. Only then pilot Shield in a bounded climate-response program. Resilience logic depends on trusted enrollment, traceable evidence, and transparent rules. Rushing it creates exactly the disputes it's designed to prevent.",
+          "citationIds": ["rda-agroinsurance-2025", "dpg-standard-2025"]
+        },
+        {
+          "kind": "figure",
+          "figureId": "rollout-roadmap"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "shortTitle": "Conclusion",
+      "citationIds": ["nwa-exports-2025", "dpg-standard-2025", "undp-default-open-2024", "joss-traceability-2025", "worldbank-index-promises-2022"],
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Terroir treats provenance, certification, and climate response as parts of one shared evidence system rather than disconnected compliance tasks. The position is technically defensible, economically relevant, and well matched to how origin-sensitive agricultural supply chains actually break.",
+          "citationIds": ["nwa-exports-2025", "joss-traceability-2025"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Trace starts where the pain is sharpest: cross-border trust failure for products whose value depends on verified origin. Shield extends the same primitives into climate resilience without pretending governance disappears into code. The architecture is specific enough to ship in one geography and general enough to scale across product categories.",
+          "citationIds": ["dpg-standard-2025", "undp-default-open-2024", "worldbank-index-promises-2022"]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Success should be measured at the operational level, not by technical throughput. Share of export batches with verified passports. Median time for a producer to register a batch. Duplicate-scan alert rates and resolution speed. Once Shield ships, median days from climate trigger to payout decision. These tell you whether the system is actually reducing friction for the people it claims to serve.",
+          "citationIds": ["joss-traceability-2025", "worldbank-index-promises-2022", "dpg-standard-2025"]
+        }
+      ]
+    }
+  ],
+  "appendixTitle": "Appendix: Formula Notes and Implementation Glossary",
+  "appendixBlocks": [
+    {
+      "kind": "paragraph",
+      "text": "CanonicalJSON is a deterministic serialization rule: sort keys, strip whitespace, render values consistently before hashing. The point is reproducibility across software stacks.",
+      "citationIds": ["tifs-blockchain-2021"]
+    },
+    {
+      "kind": "paragraph",
+      "text": "In Shield, the symbols h*, f*, and t* are governance-approved threshold values, not secret actuarial parameters. Publishing them is part of the transparency model. The same applies to payout caps, program windows, and trigger-classification logic.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    },
+    {
+      "kind": "paragraph",
+      "text": "Trust tiers should display as readable labels (Self-attested, Lab-attested, Authority-attested), not as a single undifferentiated verified badge. That distinction matters for institutional adoption and public honesty.",
+      "citationIds": ["joss-traceability-2025", "nwa-quality-2020"]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "categories": [
+    "Georgian Wine",
+    "Anti-Counterfeit and GI",
+    "Climate Resilience",
+    "Provenance and Traceability",
+    "Digital Public Goods",
+    "Funding and Safeguards"
+  ],
+  "citations": [
+    {
+      "id": "nwa-exports-2025",
+      "type": "official",
+      "apa": "National Wine Agency of Georgia. (2025, January 20). Record revenues from wine and spirits exports. https://wine.gov.ge/En/News/38181",
+      "url": "https://wine.gov.ge/En/News/38181",
+      "short": "National Wine Agency of Georgia, 2025",
+      "year": 2025,
+      "authors": ["National Wine Agency of Georgia"],
+      "title": "Record revenues from wine and spirits exports",
+      "summary": "Official 2024 export results for Georgian wine and spirits, including volume, revenue, and destination-country growth.",
+      "relevance": "Provides the export-exposure baseline used to justify why counterfeit risk and verification matter at border and distributor level.",
+      "category": "Georgian Wine"
+    },
+    {
+      "id": "nwa-varietals-2023",
+      "type": "official",
+      "apa": "National Wine Agency of Georgia. (2023, June 6). The 8,000-year-old uninterrupted tradition of wine production in Georgia. https://wine.gov.ge/En/News/37074",
+      "url": "https://wine.gov.ge/En/News/37074",
+      "short": "National Wine Agency of Georgia, 2023",
+      "year": 2023,
+      "authors": ["National Wine Agency of Georgia"],
+      "title": "The 8,000-year-old uninterrupted tradition of wine production in Georgia",
+      "summary": "National Wine Agency background on Georgia's long viticulture history and its large base of indigenous grape varieties.",
+      "relevance": "Supports the paper's cultural and biodiversity rationale for starting the provenance pilot in Georgia.",
+      "category": "Georgian Wine"
+    },
+    {
+      "id": "unesco-qvevri-2013",
+      "type": "official",
+      "apa": "UNESCO. (2013). Decision of the Intergovernmental Committee: Traditional Georgian winemaking method in qvevri. https://ich.unesco.org/en/decisions/8.COM/8.13",
+      "url": "https://ich.unesco.org/en/decisions/8.COM/8.13",
+      "short": "UNESCO, 2013",
+      "year": 2013,
+      "authors": ["UNESCO"],
+      "title": "Traditional Georgian winemaking method in qvevri",
+      "summary": "UNESCO recognition of qvevri winemaking as an element of intangible cultural heritage.",
+      "relevance": "Anchors the whitepaper's claim that Georgian wine identity is not only commercial but also cultural and institutional.",
+      "category": "Georgian Wine"
+    },
+    {
+      "id": "sakpatenti-kindzmarauli-2018",
+      "type": "official",
+      "apa": "National Intellectual Property Center of Georgia (Sakpatenti). (2018, August 9). Counterfeit wine labeled with appellation of origin 'Kindzmarauli' revealed in Russia. https://www.sakpatenti.gov.ge/en/news/5309/",
+      "url": "https://www.sakpatenti.gov.ge/en/news/5309/",
+      "short": "Sakpatenti, 2018a",
+      "year": 2018,
+      "authors": ["National Intellectual Property Center of Georgia (Sakpatenti)"],
+      "title": "Counterfeit wine labeled with appellation of origin 'Kindzmarauli' revealed in Russia",
+      "summary": "Cross-border enforcement case involving counterfeit bottles using a protected Georgian appellation.",
+      "relevance": "Shows that Georgian wine counterfeiting is documented and enforceable, not a hypothetical future risk.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "nwa-ukraine-counterfeit-2018",
+      "type": "official",
+      "apa": "National Wine Agency of Georgia. (2018, December 31). Counterfeit Georgian wine batch removed from sale in Ukraine. https://wine.gov.ge/En/News/25735",
+      "url": "https://wine.gov.ge/En/News/25735",
+      "short": "National Wine Agency of Georgia, 2018",
+      "year": 2018,
+      "authors": ["National Wine Agency of Georgia"],
+      "title": "Counterfeit Georgian wine batch removed from sale in Ukraine",
+      "summary": "Official notice that counterfeit Georgian wine was identified and removed from the Ukrainian market.",
+      "relevance": "Supports the paper's argument that verification has to work across jurisdictions and import markets.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "wipo-gi-law-1999",
+      "type": "official",
+      "apa": "World Intellectual Property Organization. (1999). Law of Georgia on appellations of origin and geographical indications of goods. WIPO Lex. https://www.wipo.int/wipolex/en/text/217274",
+      "url": "https://www.wipo.int/wipolex/en/text/217274",
+      "short": "WIPO, 1999",
+      "year": 1999,
+      "authors": ["World Intellectual Property Organization"],
+      "title": "Law of Georgia on appellations of origin and geographical indications of goods",
+      "summary": "The Georgian legal framework governing appellations of origin and geographical indications.",
+      "relevance": "Establishes that Terroir complements an existing GI regime rather than replacing it with a technical system.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "wipo-geneva-act-2025",
+      "type": "official",
+      "apa": "World Intellectual Property Organization. (2025, February 25). Georgia strengthens the protection of its geographical indications. https://www.wipo.int/web/wipo-magazine/articles/georgia-strengthens-the-protection-of-its-geographical-indications-67406",
+      "url": "https://www.wipo.int/web/wipo-magazine/articles/georgia-strengthens-the-protection-of-its-geographical-indications-67406",
+      "short": "WIPO, 2025",
+      "year": 2025,
+      "authors": ["World Intellectual Property Organization"],
+      "title": "Georgia strengthens the protection of its geographical indications",
+      "summary": "WIPO coverage of Georgia's continuing international GI protection posture.",
+      "relevance": "Shows institutional momentum around origin protection and strengthens the case for digital enforcement accelerators.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "oecd-fakes-2022",
+      "type": "report",
+      "apa": "Organisation for Economic Co-operation and Development. (2022). Global trade in fakes: A worrying threat. OECD Publishing. https://www.oecd.org/en/publications/global-trade-in-fakes-a-worrying-threat_74c81154-en.html",
+      "url": "https://www.oecd.org/en/publications/global-trade-in-fakes-a-worrying-threat_74c81154-en.html",
+      "short": "OECD, 2022",
+      "year": 2022,
+      "authors": ["Organisation for Economic Co-operation and Development"],
+      "title": "Global trade in fakes: A worrying threat",
+      "summary": "OECD synthesis of the scale, channels, and enforcement implications of counterfeit trade.",
+      "relevance": "Provides the macro-level trade context for why authenticity infrastructure has real economic value.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "oecd-euipo-fakes-2025",
+      "type": "report",
+      "apa": "Organisation for Economic Co-operation and Development, & European Union Intellectual Property Office. (2025). Mapping global trade in fakes 2025: Global trends and enforcement challenges. OECD Publishing. https://doi.org/10.1787/94d3b29f-en",
+      "url": "https://doi.org/10.1787/94d3b29f-en",
+      "short": "OECD & EUIPO, 2025",
+      "year": 2025,
+      "authors": ["Organisation for Economic Co-operation and Development", "European Union Intellectual Property Office"],
+      "title": "Mapping global trade in fakes 2025: Global trends and enforcement challenges",
+      "summary": "Joint OECD and EUIPO report on counterfeit flows, market trends, and enforcement conditions.",
+      "relevance": "Supports the whitepaper's claim that counterfeit risk is structurally cross-border and increasingly sophisticated.",
+      "category": "Anti-Counterfeit and GI"
+    },
+    {
+      "id": "nwa-quality-2020",
+      "type": "official",
+      "apa": "National Wine Agency of Georgia. (2020). Annual report 2020. https://wine.gov.ge/En/Files/Download/12996",
+      "url": "https://wine.gov.ge/En/Files/Download/12996",
+      "short": "National Wine Agency of Georgia, 2020",
+      "year": 2020,
+      "authors": ["National Wine Agency of Georgia"],
+      "title": "Annual report 2020",
+      "summary": "National Wine Agency report covering vintage accounting, quality-control reforms, and lab methods used to detect falsification.",
+      "relevance": "Provides direct evidence that Terroir can align with existing transparency and lab-control workflows instead of inventing a parallel bureaucracy.",
+      "category": "Georgian Wine"
+    },
+    {
+      "id": "mepa-hail-aid-2023",
+      "type": "official",
+      "apa": "Ministry of Environmental Protection and Agriculture of Georgia. (2023, November 17). More than 5,800 vineyard owners received state assistance after hail damage in Kakheti. https://mepa.gov.ge/Ge/News/Details/21399",
+      "url": "https://mepa.gov.ge/Ge/News/Details/21399",
+      "short": "MEPA, 2023",
+      "year": 2023,
+      "authors": ["Ministry of Environmental Protection and Agriculture of Georgia"],
+      "title": "More than 5,800 vineyard owners received state assistance after hail damage in Kakheti",
+      "summary": "Official account of one-time aid distributed to vineyard owners after September 2023 hail events in Kakheti.",
+      "relevance": "Establishes the concrete climate-shock response case that the upcoming Shield module is designed to improve.",
+      "category": "Climate Resilience"
+    },
+    {
+      "id": "rda-agroinsurance-2025",
+      "type": "official",
+      "apa": "Rural Development Agency. (2025). Agroinsurance. https://www.rda.gov.ge/en/projects/Agroinsurance",
+      "url": "https://www.rda.gov.ge/en/projects/Agroinsurance",
+      "short": "Rural Development Agency, 2025",
+      "year": 2025,
+      "authors": ["Rural Development Agency"],
+      "title": "Agroinsurance",
+      "summary": "Program page describing Georgia's subsidized agricultural insurance framework, including coverage areas and co-financing.",
+      "relevance": "Shows that Georgia already has a policy and operational substrate for risk-transfer collaboration, making Shield more realistic as a next module.",
+      "category": "Climate Resilience"
+    },
+    {
+      "id": "worldbank-index-promises-2022",
+      "type": "report",
+      "apa": "World Bank. (2022). Index insurance for agricultural resilience: Promises, challenges and solutions. https://openknowledge.worldbank.org/entities/publication/1be2d7c8-9b22-5753-bf07-4a0df44bc09d",
+      "url": "https://openknowledge.worldbank.org/entities/publication/1be2d7c8-9b22-5753-bf07-4a0df44bc09d",
+      "short": "World Bank, 2022",
+      "year": 2022,
+      "authors": ["World Bank"],
+      "title": "Index insurance for agricultural resilience: Promises, challenges and solutions",
+      "summary": "World Bank synthesis on why index-based and parametric mechanisms help, where they fail, and how basis risk should be treated.",
+      "relevance": "Provides the conceptual backbone for the Shield trigger, payout, and basis-risk sections.",
+      "category": "Climate Resilience"
+    },
+    {
+      "id": "worldbank-viable-solution-2019",
+      "type": "report",
+      "apa": "World Bank. (2019). Is index insurance a viable solution for disaster risk financing in agriculture? https://openknowledge.worldbank.org/entities/publication/e6cc66f4-a4b3-5355-bded-ef17f4f9d4b3",
+      "url": "https://openknowledge.worldbank.org/entities/publication/e6cc66f4-a4b3-5355-bded-ef17f4f9d4b3",
+      "short": "World Bank, 2019",
+      "year": 2019,
+      "authors": ["World Bank"],
+      "title": "Is index insurance a viable solution for disaster risk financing in agriculture?",
+      "summary": "World Bank note on operational design, index quality, and implementation limits of agricultural index insurance.",
+      "relevance": "Supports the decision to frame Shield first as an auditable relief and resilience layer rather than a fully regulated insurance product.",
+      "category": "Climate Resilience"
+    },
+    {
+      "id": "nature-food-climate-2024",
+      "type": "paper",
+      "apa": "Moriondo, M., Ferrise, R., Dibari, C., and colleagues. (2024). Climate resilience pathways for European wine regions. Nature Food, 5, 551-562. https://www.nature.com/articles/s43016-024-00988-w",
+      "url": "https://www.nature.com/articles/s43016-024-00988-w",
+      "short": "Moriondo et al., 2024",
+      "year": 2024,
+      "authors": ["Moriondo", "Ferrise", "Dibari"],
+      "title": "Climate resilience pathways for European wine regions",
+      "summary": "Peer-reviewed assessment of climate risk and adaptation pathways across wine-producing regions.",
+      "relevance": "Gives scientific grounding to the whitepaper's claim that resilience data belongs alongside provenance data in vineyard-adjacent infrastructure.",
+      "category": "Climate Resilience"
+    },
+    {
+      "id": "tifs-blockchain-2021",
+      "type": "paper",
+      "apa": "Paliwal, V., Chandra, S., & Sharma, S. (2021). Blockchain technology for sustainable supply chain management: A systematic literature review and a classification framework. Trends in Food Science & Technology, 109, 637-660. https://doi.org/10.1016/j.tifs.2021.08.012",
+      "url": "https://doi.org/10.1016/j.tifs.2021.08.012",
+      "short": "Paliwal et al., 2021",
+      "year": 2021,
+      "authors": ["Paliwal", "Chandra", "Sharma"],
+      "title": "Blockchain technology for sustainable supply chain management",
+      "summary": "Systematic review of blockchain architectures, benefits, and implementation pitfalls in supply-chain settings.",
+      "relevance": "Supports the paper's selective, minimal on-chain strategy instead of a maximalist blockchain narrative.",
+      "category": "Provenance and Traceability"
+    },
+    {
+      "id": "joss-traceability-2025",
+      "type": "paper",
+      "apa": "Banstola, A., Ghimeray, A. K., & Ahmad, T. (2025). Do farmers participate in traceability systems? A systematic review and future directions. Journal of the Science of Food and Agriculture, 105(4), 2036-2049. https://onlinelibrary.wiley.com/doi/10.1111/joss.70034",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/joss.70034",
+      "short": "Banstola et al., 2025",
+      "year": 2025,
+      "authors": ["Banstola", "Ghimeray", "Ahmad"],
+      "title": "Do farmers participate in traceability systems? A systematic review and future directions",
+      "summary": "Systematic review focused on farmer adoption incentives, frictions, and governance conditions in traceability systems.",
+      "relevance": "Supports the paper's operational requirement that Trace remain batch-first, low-friction, and aligned to existing workflows.",
+      "category": "Provenance and Traceability"
+    },
+    {
+      "id": "dpg-standard-2025",
+      "type": "policy",
+      "apa": "Digital Public Goods Alliance. (2025). DPG Standard. https://www.digitalpublicgoods.net/standard/",
+      "url": "https://www.digitalpublicgoods.net/standard/",
+      "short": "Digital Public Goods Alliance, 2025",
+      "year": 2025,
+      "authors": ["Digital Public Goods Alliance"],
+      "title": "DPG Standard",
+      "summary": "The standard used to assess whether a project qualifies as a digital public good.",
+      "relevance": "Gives a concrete governance target for Terroir as open infrastructure rather than a closed vendor product.",
+      "category": "Digital Public Goods"
+    },
+    {
+      "id": "undp-default-open-2024",
+      "type": "report",
+      "apa": "United Nations Development Programme. (2024). Default to open. https://www.undp.org/publications/default-open",
+      "url": "https://www.undp.org/publications/default-open",
+      "short": "UNDP, 2024",
+      "year": 2024,
+      "authors": ["United Nations Development Programme"],
+      "title": "Default to open",
+      "summary": "UNDP publication arguing for open digital systems, reusable infrastructure, and public-interest software.",
+      "relevance": "Supports the whitepaper's insistence that trust infrastructure should remain forkable, inspectable, and reusable.",
+      "category": "Digital Public Goods"
+    },
+    {
+      "id": "unicef-innovation-fund-2026",
+      "type": "policy",
+      "apa": "UNICEF Office of Innovation. (2026). Venture Fund. https://www.unicefinnovationfund.org/",
+      "url": "https://www.unicefinnovationfund.org/",
+      "short": "UNICEF Office of Innovation, 2026",
+      "year": 2026,
+      "authors": ["UNICEF Office of Innovation"],
+      "title": "Venture Fund",
+      "summary": "Official UNICEF innovation funding surface describing equity-free support for open-source and frontier-technology ventures.",
+      "relevance": "Supports the paper's funder-facing positioning and explains why open-source infrastructure language matters.",
+      "category": "Funding and Safeguards"
+    },
+    {
+      "id": "unicefusa-gift-policy-2026",
+      "type": "policy",
+      "apa": "UNICEF USA. (2026). Gift acceptance policy. https://www.unicefusa.org/about/finances-and-accountability/gift-acceptance-policy",
+      "url": "https://www.unicefusa.org/about/finances-and-accountability/gift-acceptance-policy",
+      "short": "UNICEF USA, 2026",
+      "year": 2026,
+      "authors": ["UNICEF USA"],
+      "title": "Gift acceptance policy",
+      "summary": "Policy page describing sensitive and excluded funding relationships, including alcohol-company restrictions.",
+      "relevance": "Explains why the paper frames Terroir as rural livelihoods and resilience infrastructure, not alcohol promotion.",
+      "category": "Funding and Safeguards"
+    }
+  ],
+  "figures": [
+    {
+      "id": "system-overview",
+      "title": "System overview: Trace now, Shield next",
+      "caption": "Terroir is structured as a layered trust stack. Trace is the current provenance and verification module. Shield is the planned resilience and auditable-response layer built on top of the same issuer, event, and evidence foundations.",
+      "asset": "/whitepaper/figures/system-overview.svg",
+      "alt": "Diagram showing Trace as the current product and Shield as the upcoming resilience module in the same infrastructure stack.",
+      "citationIds": ["dpg-standard-2025", "undp-default-open-2024"]
+    },
+    {
+      "id": "georgia-export-exposure",
+      "title": "Georgian wine export exposure in 2024",
+      "caption": "Official National Wine Agency figures show the scale and cross-border spread of the Georgian wine market, the exact environment in which counterfeit and authenticity disputes become costly.",
+      "asset": "/whitepaper/figures/georgia-export-exposure.svg",
+      "alt": "Bar chart showing 2024 Georgian wine export volume, revenue, and selected market growth indicators.",
+      "citationIds": ["nwa-exports-2025"]
+    },
+    {
+      "id": "trust-failure-map",
+      "title": "Where trust fails across the export chain",
+      "caption": "The problem is not production; it is maintaining trusted evidence of origin, handling, and authenticity as custody spreads across actors and jurisdictions.",
+      "asset": "/whitepaper/figures/trust-failure-map.svg",
+      "alt": "Chain diagram from producer to importer showing risk points for counterfeit, relabeling, and record fragmentation.",
+      "citationIds": ["sakpatenti-kindzmarauli-2018", "nwa-ukraine-counterfeit-2018"]
+    },
+    {
+      "id": "trace-data-model",
+      "title": "Trace data model",
+      "caption": "The Trace module binds producer, batch, evidence, attestation, and verification-proof objects into one hybrid record system with selective on-chain commitments.",
+      "asset": "/whitepaper/figures/trace-data-model.svg",
+      "alt": "Entity relationship style diagram showing producers, batches, evidence, attestations, scans, and verification proofs."
+    },
+    {
+      "id": "attestation-sequence",
+      "title": "Attestation and verification sequence",
+      "caption": "Trace only needs a small set of on-chain actions. Most operational data stays off-chain, while content hashes and issuer actions remain publicly verifiable.",
+      "asset": "/whitepaper/figures/attestation-sequence.svg",
+      "alt": "Sequence diagram showing batch creation, evidence upload, attestation, hash anchoring, and public verification."
+    },
+    {
+      "id": "qr-nfc-anomaly",
+      "title": "Physical-digital binding and anomaly detection",
+      "caption": "QR is sufficient for low-friction transparency. Higher-risk export lines can add secure NFC and duplicate-scan logic without changing the core attestation model.",
+      "asset": "/whitepaper/figures/qr-nfc-anomaly.svg",
+      "alt": "Diagram showing product tag scan flow with QR and NFC options and duplicate-scan anomaly alerting."
+    },
+    {
+      "id": "shield-payout-flow",
+      "title": "Shield event-to-payout flow",
+      "caption": "Shield is designed as a planned resilience layer: weather data enters a trigger engine, oracles sign event claims, payout rules resolve against enrolled vineyard records, and results are publicly reported without exposing personal identities.",
+      "asset": "/whitepaper/figures/shield-payout-flow.svg",
+      "alt": "Workflow diagram showing weather event ingestion, oracle signing, trigger evaluation, payout execution, and public reporting.",
+      "citationIds": ["mepa-hail-aid-2023", "rda-agroinsurance-2025", "worldbank-index-promises-2022"]
+    },
+    {
+      "id": "parametric-payout-curve",
+      "title": "Illustrative parametric payout curve",
+      "caption": "A threshold, ramp, and cap keep the mechanism interpretable and auditable. The curve is illustrative rather than a production actuarial schedule.",
+      "asset": "/whitepaper/figures/parametric-payout-curve.svg",
+      "alt": "Line chart of event severity versus payout showing threshold, payout ramp, and capped maximum.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    },
+    {
+      "id": "basis-risk",
+      "title": "Basis risk as the core design constraint",
+      "caption": "The gap between realized loss and index payout is the central governance and design problem for Shield. That gap must be visible, measured, and monitored.",
+      "asset": "/whitepaper/figures/basis-risk.svg",
+      "alt": "Comparison chart showing observed losses and parametric payouts diverging across multiple events.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    },
+    {
+      "id": "rollout-roadmap",
+      "title": "Rollout roadmap",
+      "caption": "The proposed rollout starts with batch passports for export SKUs, then layers in issuer integrations, anomaly analytics, and finally the forthcoming Shield resilience workflow.",
+      "asset": "/whitepaper/figures/rollout-roadmap.svg",
+      "alt": "Phased roadmap from prototype to pilot to institutional rollout and multi-product expansion."
+    }
+  ],
+  "tables": [
+    {
+      "id": "problem-feature-mapping",
+      "title": "Problem-to-feature mapping",
+      "caption": "Trace addresses trust failures first. Shield extends the same trust primitives into climate-response operations once the evidence layer is stable.",
+      "columns": ["Problem", "Operational symptom", "Response in Terroir", "Module"],
+      "rows": [
+        ["Counterfeit origin", "Copied labels, ambiguous appellation claims, refill risk", "Product passport, issuer attestations, public verify page", "Trace"],
+        ["Fragmented records", "Paper certificates, siloed databases, delayed export checks", "Hybrid registry, canonical schemas, open APIs", "Trace"],
+        ["Weak enforcement evidence", "Slow dispute reconstruction across borders", "Hash commitments, scan history, attestation chain", "Trace"],
+        ["Climate shock response delay", "Slow assessments, opaque payout decisions, dispute risk", "Weather trigger engine, audited relief workflow, public reporting", "Shield"],
+        ["Youth and smallholder exclusion", "Support programs are hard to target and hard to audit", "Enrollment records, milestone evidence, transparent disbursement logs", "Shield"]
+      ]
+    },
+    {
+      "id": "source-of-truth-matrix",
+      "title": "Source-of-truth matrix by actor and claim type",
+      "caption": "Terroir works only when claims are assigned to the actors best placed to make them and when higher-trust claims can be distinguished from self-attested claims.",
+      "columns": ["Claim type", "Primary issuer", "Evidence artifact", "Trust tier"],
+      "rows": [
+        ["Harvest and batch creation", "Producer or cooperative", "Batch record and field evidence", "Self-attested"],
+        ["Laboratory result", "Accredited lab", "Signed certificate hash", "Lab-attested"],
+        ["PDO or GI conformity", "Authorized certifier or authority", "Inspection or certificate attestation", "Authority-attested"],
+        ["Export documentation", "Exporter and agency workflow", "Shipment bundle and document hash", "Authority-attested"],
+        ["Climate trigger event", "Weather oracle and governance signer", "Signed event packet and threshold log", "Program-attested"]
+      ]
+    }
+  ],
+  "equations": [
+    {
+      "id": "trace-commitment",
+      "title": "Trace commitment",
+      "expression": "h_{\\text{batch}} = \\texttt{keccak256}\\bigl(\\texttt{CanonicalJSON}(\\textit{fields})\\bigr)",
+      "variables": [
+        { "symbol": "h_batch", "meaning": "Batch content hash anchored or stored for verification." },
+        { "symbol": "CanonicalJSON(batch_core_fields)", "meaning": "Deterministic serialization of the batch fields that define provenance at registration time." }
+      ],
+      "interpretation": "The batch hash is a compact commitment to the important provenance fields. If any of those fields change later, the verifier recomputes a different hash and the mismatch becomes visible.",
+      "citationIds": ["tifs-blockchain-2021"]
+    },
+    {
+      "id": "attestation-commitment",
+      "title": "Attestation commitment",
+      "expression": "h_{\\text{att}} = \\texttt{keccak256}(\\textit{batch\\_id} \\,\\|\\, \\textit{issuer\\_id} \\,\\|\\, \\textit{type} \\,\\|\\, \\texttt{CanonicalJSON}(\\textit{payload}))",
+      "variables": [
+        { "symbol": "h_att", "meaning": "Attestation hash stored as the public commitment." },
+        { "symbol": "batch_id", "meaning": "Identifier of the batch being attested." },
+        { "symbol": "issuer_id", "meaning": "Credentialed issuer or signer identity." },
+        { "symbol": "attestation_type", "meaning": "The claim class, such as origin verification or lab result." },
+        { "symbol": "payload", "meaning": "Structured evidence payload supporting the claim." }
+      ],
+      "interpretation": "Trace does not anchor raw evidence on-chain. It anchors a cryptographic commitment that links the issuer, the claim type, and the structured payload into one verifiable record.",
+      "citationIds": ["tifs-blockchain-2021"]
+    },
+    {
+      "id": "verification-predicate",
+      "title": "Verification predicate",
+      "expression": "V(\\text{batch}) = \\mathbf{1}[h^{\\text{off}}_{\\text{batch}} = h^{\\text{on}}_{\\text{batch}}] \\cdot \\prod_i \\mathbf{1}[h^{\\text{off}}_{\\text{att},i} = h^{\\text{on}}_{\\text{att},i}]",
+      "variables": [
+        { "symbol": "V(batch)", "meaning": "Binary verification result for the batch record." },
+        { "symbol": "1[...]", "meaning": "Indicator function equal to 1 when the stated condition is true." },
+        { "symbol": "Π_i", "meaning": "Product over all attestations associated with the batch." }
+      ],
+      "interpretation": "A batch verifies only when the off-chain batch hash matches the on-chain commitment and every attestation hash also matches its recorded commitment.",
+      "citationIds": ["tifs-blockchain-2021"]
+    },
+    {
+      "id": "trust-tier-score",
+      "title": "Attestation-weight score",
+      "expression": "T = \\frac{\\sum_i w_i \\, a_i}{\\sum_i w_i}",
+      "variables": [
+        { "symbol": "T", "meaning": "Composite trust score for a batch or claim bundle." },
+        { "symbol": "w_i", "meaning": "Weight assigned to attestation class i based on issuer credibility and governance rules." },
+        { "symbol": "a_i", "meaning": "Observed attestation validity or presence for issuer class i." }
+      ],
+      "interpretation": "The score is not a truth oracle. It is a way to summarize whether a claim is only self-reported or supported by stronger, independent attestations such as labs or authorities.",
+      "citationIds": ["joss-traceability-2025"]
+    },
+    {
+      "id": "scan-anomaly-score",
+      "title": "Scan anomaly score",
+      "expression": "A(\\text{tag}) = w_1 v_{\\text{geo}} + w_2 v_{\\text{time}} + w_3 v_{\\text{dup}} + w_4 v_{\\text{route}}",
+      "variables": [
+        { "symbol": "A(tag)", "meaning": "Risk score associated with a specific QR or NFC tag." },
+        { "symbol": "v_geo", "meaning": "Geographic inconsistency feature, such as impossible distance between scans." },
+        { "symbol": "v_time", "meaning": "Temporal inconsistency feature." },
+        { "symbol": "v_dup", "meaning": "Duplicate or repeated scan pattern intensity." },
+        { "symbol": "v_route", "meaning": "Mismatch between observed and expected distribution path." }
+      ],
+      "interpretation": "Anomaly scoring does not prove fraud by itself. It helps brand owners, importers, and authorities prioritize which suspicious events deserve review.",
+      "citationIds": ["sakpatenti-kindzmarauli-2018", "oecd-euipo-fakes-2025"]
+    },
+    {
+      "id": "shield-trigger",
+      "title": "Shield trigger indicator",
+      "expression": "\\text{Trigger} = \\mathbf{1}[H \\geq h^* \\;\\lor\\; F \\leq f^* \\;\\lor\\; T_{\\min} \\leq t^*]",
+      "variables": [
+        { "symbol": "H", "meaning": "Observed hail or hazard intensity for the covered area." },
+        { "symbol": "F", "meaning": "Observed frost condition indicator." },
+        { "symbol": "T_min", "meaning": "Minimum temperature in the relevant event window." },
+        { "symbol": "h*, f*, t*", "meaning": "Governance-approved thresholds for the program." }
+      ],
+      "interpretation": "Shield uses transparent threshold rules so participants know in advance what event levels are sufficient to move a case into the payout workflow.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    },
+    {
+      "id": "parametric-payout",
+      "title": "Illustrative payout rule",
+      "expression": "P_i = \\min\\bigl(P_{\\max},\\; \\text{Area}_i \\cdot \\max(0,\\; \\alpha(H - h^*) + \\beta(F - f^*) + \\gamma(D - d^*))\\bigr)",
+      "variables": [
+        { "symbol": "P_i", "meaning": "Payout for participant i." },
+        { "symbol": "P_max", "meaning": "Program cap for a single enrolled unit." },
+        { "symbol": "Area_i", "meaning": "Covered area or another exposure measure for participant i." },
+        { "symbol": "alpha, beta, gamma", "meaning": "Weights for hail, frost, and drought index components." },
+        { "symbol": "D", "meaning": "A drought or dryness indicator where relevant to the program." }
+      ],
+      "interpretation": "The formula illustrates a transparent structure rather than a final actuarial contract. It shows how exposure, threshold exceedance, and capped support can be combined without hiding logic inside manual discretion.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    },
+    {
+      "id": "basis-risk",
+      "title": "Basis risk measure",
+      "expression": "\\text{BR} = \\mathbb{E}\\bigl[|L_i - P_i|\\bigr]",
+      "variables": [
+        { "symbol": "BR", "meaning": "Expected basis risk over observed cases." },
+        { "symbol": "L_i", "meaning": "Realized loss for participant i." },
+        { "symbol": "P_i", "meaning": "Program payout for participant i." },
+        { "symbol": "E", "meaning": "Expectation across cases or seasons." }
+      ],
+      "interpretation": "Basis risk is the expected gap between real damage and parametric payout. Shield should make that gap visible and governable rather than pretending it disappears.",
+      "citationIds": ["worldbank-index-promises-2022", "worldbank-viable-solution-2019"]
+    }
+  ]
+}
